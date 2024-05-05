@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mastering CSS basic</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      .container {
+        font-family: Arial;
+        font-size: 16px;
+      }
+      .child-1,
+      .child-2,
+      .child-3 {
+        margin-top: 10px;
+      }
+      /* .child-1 {
+        background-color: gray;
+        color: yellow;
+        color: red;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      } */
+      .child-1 > p {
+        background-color: gray;
+        color: yellow;
+        color: red;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 40px;
+        font-weight: bolder;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        font-family: sans-serif;
+      }
+      #child-4 {
+        border: 2px solid black;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+      }
+    </style>
+  </head>
+
+  <!-- Lecture-01
+   1.Types of CSS - InlineCSS,Internal CSS, extranal CSS
+   2.use some props
+   3.understand the working of css
+   4.understand the How to design  
+   -->
+  <body>
+    <div class="container">
+      <div class="child-1">
+        <p style="background-color: skyblue">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus,
+          nam!
+        </p>
+      </div>
+      <div class="child-2">
+        <p style="background-color: skyblue">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem
+          itaque sunt dignissimos, eos sapiente quis, dolore distinctio tenetur
+          libero praesentium modi doloremque! Deserunt excepturi eligendi eum
+          recusandae incidunt reprehenderit perferendis?
+        </p>
+      </div>
+      <div class="child-3">
+        <p style="background-color: skyblue">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem
+          itaque sunt dignissimos, eos sapiente quis, dolore distinctio tenetur
+          libero praesentium modi doloremque! Deserunt excepturi eligendi eum
+          recusandae incidunt reprehenderit perferendis?
+        </p>
+      </div>
+      <div id="child-4">
+        <p style="background-color: skyblue">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem
+          itaque sunt dignissimos, eos sapiente quis, dolore distinctio tenetur
+          libero praesentium modi doloremque! Deserunt excepturi eligendi eum
+          recusandae incidunt reprehenderit perferendis?
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
