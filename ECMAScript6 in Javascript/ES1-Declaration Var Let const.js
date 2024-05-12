@@ -34,7 +34,7 @@ function bankManagementSystem() {
   );
 }
 
-bankManagementSystem();
+bankManagementSystem(); // envoke the function 
 console.log("code is working fine!");
 
 console.table(
@@ -95,6 +95,6 @@ console.log(student_enroll_course)
 // 2. const keywrod variable you can re-assign value 
 // 3. when you can create the variable, must assign value 
 
-const user_pending_data;
-console.log(user_pending_data) // error 
+// const user_pending_data;
+// console.log(user_pending_data) // error 
 
