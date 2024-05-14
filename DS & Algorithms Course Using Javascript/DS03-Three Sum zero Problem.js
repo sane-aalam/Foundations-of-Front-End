@@ -16,6 +16,9 @@ Notice that the order of the output and the order of the triplets does not matte
 var ThreeSum = function (arr) {
   let n = arr.length;
   let zero_sum = 0;
+
+  // sort method present in javascript
+  // bluid-in-method in javascript
   arr.sort();
 
   // let's store the result
